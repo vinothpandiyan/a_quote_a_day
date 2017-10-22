@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>a-quote-a-day Node application</title>
+    </head>
+    <body>
+        <div>
+            <h1 align="center" id="quote"></h1>
+        </div>
+        <script>
+            var quotesArray = [
+                "Don't worry about what anybody else is going to do. The best way topredict the future is to invent it - Alan Kay",
+                "Premature optimization is the root of all evil (or at least most of it in programming - Donaly Kurth",
+                "No problem should ever have to be solved twice. - Raymond",
+                "Attitude is no substitute for competence - Eric",
+                "It is said that the real winner is the one who lives in today but able to see tomorrow. - Jung Meng",
+                "Code is poetry - Wordpress",
+                "The function of wisdom is to discriminate between good and evil - Ciserio",
+                "Mistakes were made - Ronald Reign"
+            ];
+            var randomNumber = Math.floor((Math.random() * 7) + 1);
+            document.getElementById('quote').innerHTML = quotesArray[randomNumber];
+            console.log(randomNumber);
+        </script>
+    </body>
+</html>

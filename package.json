@@ -1,0 +1,14 @@
+{
+  "name": "a-quote-a-day",
+  "version": "1.0.0",
+  "description": "Node - Express application to display quotes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vinoth Pandiyan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
